@@ -1,0 +1,104 @@
+@page {
+margin: 0.8cm;
+}
+
+#object{page-break-after:always}
+
+header,
+footer,
+form,
+.formWrapper,
+nav,
+.cookieWrapper,
+.exhibitionWrapper.col,
+.logoWrapper,
+.split .opcityLayer,
+img.round,
+.galleryView span,
+.galleryView icon,
+iframe,
+.objectInfo ul.tabs,
+aside.objectFact .assets,
+.objectGalleryWrapper,
+.localArea .flexslider#NavSlider,.gallery, .galleryView, .ff, .profilePic, .localArea, .objectInfo, #kundo_feedback, .round
+ { display:none !important;}
+
+a, article p a, article a {color:#000 !important;}
+
+/*body {zoom:100%;}*/
+body { font-size: 1.0em; zoom:1; }
+
+.icon {display:none;}
+
+aside.contactInfo a {display:none;}
+aside.contactInfo a[href^=tel] {display:block;}
+
+.floorPlan ul li {width:200px !important;}
+    .floorPlan ul li.clone {width:1743px !important;}
+
+.content {min-width:100%;}
+
+.objectGalleryWrapper.col {max-width:100%; height:100%;}
+    .objectGalleryWrapper.col img {width:100%; height:100%;}
+.ff {max-width:95%;}
+
+.col.max.fourQuinaries { width:100%;}
+
+aside.contactInfo { right:0;}
+
+h1, h1 span, h2, h2 span { font-size:30pt; line-height:35pt;}
+h3, label {
+    font-size:12pt; line-height:12pt;
+}
+.quickObjectInfo ul li { font-size:10pt; line-height:15pt;}
+
+article p, article p a, .articlePage ul li, .articlePage ol li, span { font-size:10pt; line-height:14pt; font-family: Georgia, serif;}
+ul li,
+ul li span,
+ul.basefacts li p,
+a,
+input[type="text"],
+article ul li p,
+span, h5, h6,
+.button,
+label.error,
+.exhibition p { font-family:sans-serif;}
+.pushArea.split {min-height:0;}
+
+.object.first .fourQuinaries { padding-top:0;}
+
+.object aside.contactInfo ul.accordionElement {width:200px;
+}
+.accordionElement {}
+.accordionElement .profilePic img { width:100%}
+aside.contactInfo ul li { width:auto;}
+
+.object .fourQuinaries, aside.contactInfo ul, .ff, .fillColor { box-shadow:none;}
+
+.gallery .masonryBox {  max-width: 100%;
+    float:left;
+    position:relative !important; 
+    top:inherit !important;
+    left:inherit !important;
+}
+
+
+.gallery .masonryBox img {position:relative; width:55% !important;}
+
+/*.tabContainer.col {
+    display: block !important;
+}*/
+
+aside.objectFact.col.third  { width:100%;}
+aside .floorPlan img {
+max-width: 200px;
+float: left;}
+
+.tweekContent { padding:0; }
+.tabbed .tabContainer.col.twoThirds { left:0;}
+
+h1 span, h2 span {
+    color:#222;
+}
+
+li.gentle {color:#393939}

@@ -1,0 +1,5 @@
+var nPUid="-";
+populateSegs("4|1|2|3", function() {});
+window.nPsegs="4|1|2|3";
+var npario_segs="4|1|2|3";
+var e=new Date((new Date()).getTime()+1814400000);var d=(location.hostname).toLowerCase();d=d.replace(/.*(\.[\w\-]+\.[a-z]{3}$)/,'$1');d=d.replace(/.*(\.[\w\-]+\.\w+\.[a-z]{2}$)/,'$1');d=d.replace(/.*(\.[\w\-]{3,}\.[a-z]{2}$)/,'$1');document.cookie="nPsegs="+npario_segs+";expires="+e.toGMTString()+";path=/;domain="+d;if(typeof(populateSegs)==="function") {	populateSegs('4|1|2|3', function(){});}
